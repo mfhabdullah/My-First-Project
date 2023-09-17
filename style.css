@@ -1,0 +1,121 @@
+*{
+    padding-left: 0%;
+    margin: 0%;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+.topbar-section{
+    background-color: #173a69;
+    padding: 10px 10px;
+}
+.topbar-section .topbar-parents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.topbar-section .topbar-parents .topbar-one ul{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    }
+    .topbar-section .topbar-parents .topbar-two ul{
+        display: flex;
+        list-style: none;
+        justify-content: end;
+        column-gap: 30px;
+        }
+        .topbar-section .topbar-parents a{
+            font-size: 13px;
+            line-height: 20px;
+            font-weight: 400px;
+            font-family: 'open Sans', sans-serif;
+            color: white;
+            text-decoration: none;
+        }
+
+        /* -----------header------- */
+        body{
+            font-family:'Sen sans','sans-serif' ;
+        }
+        .header-section{
+            padding: 10px 0;
+        }
+        .header-section .header-parents{
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                align-items: center;
+
+        }
+        .header-section .header-parents ul{
+            display: flex;
+            justify-content: end;
+            column-gap: 70px; 
+
+        }       
+
+        .header-section .header-parents ul li a{
+            font-size: 16px;
+            line-height: 22px;
+            color: black;
+            font-weight: 600px;
+            text-decoration: none;
+        }
+                        /* ----------banner section---------- */
+
+        .banner-section{
+            padding: 150px 0;
+            background:url('./img/overlay.png');
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+          }
+          .banner-section::after {
+            content: "";
+            height: 100%;
+            width: 100%;
+            display: inline-block;
+            background: url('./img/banner-img.png');
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            top:0;
+            left: 0;
+          }
+
+        .banner-section .banner-parents{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+.content{
+    font-size: 25px;
+}
+.con{
+        text-decoration: none;
+        color: white;
+        background-color: navy;
+        padding: 10px 30px 10px 30px;
+        font-size: 10px;
+        position: absolute;
+        font-size: 25px;
+    }
+    .con2 {
+        text-decoration: none;
+        color: navy;
+        background-color: #ffffff21;
+        padding: 9px 30px 9px 30px;
+        display: flex;
+        position: absolute;
+        margin-left: 300px;
+        font-size: 25px;
+        border: 2px solid navy;
+        text-align: center;
+    }
