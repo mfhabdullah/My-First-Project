@@ -13,7 +13,7 @@ ul{
     list-style: none;
 }
 .topbar-section{
-    background-color: #173a69;
+    background-color: #15154d;
     padding: 10px 10px;
 }
 .topbar-section .topbar-parents {
@@ -42,7 +42,7 @@ ul{
 
         /* -----------header------- */
         body{
-            font-family:'Sen sans','sans-serif' ;
+            font-family:'open sans','sans-serif' ;
         }
         .header-section{
             padding: 10px 0;
@@ -66,6 +66,10 @@ ul{
             color: black;
             font-weight: 600px;
             text-decoration: none;
+            transition: 0.5;
+        }
+        .header-section .header-parents ul li a:hover{
+            text-decoration-line: underline;
         }
                         /* ----------banner section---------- */
 
@@ -98,10 +102,13 @@ ul{
 .content{
     font-size: 25px;
 }
+.banner-section .banner-parents .banner-content{
+    font-family: sans-serif bold;
+}
 .con{
         text-decoration: none;
         color: white;
-        background-color: navy;
+        background-color: #15154d;
         padding: 10px 30px 10px 30px;
         font-size: 10px;
         position: absolute;
@@ -109,13 +116,101 @@ ul{
     }
     .con2 {
         text-decoration: none;
-        color: navy;
+        color: #15154d;
         background-color: #ffffff21;
         padding: 8px 26px 8px 26px;
         display: flex;
         position: absolute;
         margin-left: 300px;
         font-size: 25px;
-        border: 2px solid navy;
+        border: 2px solid #15154d;
         text-align: center;
     }
+  /* ----------------service-section-------------------  */
+
+  
+.ima {
+    margin-block: 96px 0px;
+    text-align: center;
+  }
+  .service-section .service-parents .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-size: 15px;
+    margin: 75px 100px;
+    font-family: sans-serif;
+    max-width: 965;
+  }
+/* -----------------about-section------------------ */
+
+  .about-section{
+    background: url(./img/Back.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+.about-section .about-parents{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 40px;
+    align-items: center;
+ }
+ /* ---------------GALLERY--------------- */
+
+ .gallery-section .gallery-parents{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+ }
+ .gallery-button{
+    height: auto;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    background-color: #15154d;
+    padding: 10px 30px 10px 30px;
+    font-size: 15px;
+    margin: 50px 45%;
+ }
+ .gallery-button:hover{
+    background-color: #15154d;
+    color: #fff;
+    border:2px;
+}
+ /* ------------------------footer-section------------------------- */
+ .footer-section .footer-parents {
+    height: 10px;
+    line-height: 10%;
+    background-color: #15154d;
+    color: white;
+    text-align: center;
+    padding: 46px 0;
+    font-size: 20px;
+}
+.footer-section .footer-parents .foot-logo{
+    height: 50px;
+    margin: 100px 0;
+}
+.foot-icon ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    column-gap: 33px;
+    margin: 100px 0;
+    font-size: 33px;
+}
+.foot-icon{
+    background-color: #fff;
+    margin: 75px 0;
+}
+.footer-parents .last-foot{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    background-color: black;
+    font-size: 12px;
+    margin-bottom: 75px;
+}
