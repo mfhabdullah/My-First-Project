@@ -45,6 +45,10 @@ ul{
     color: white;
     text-decoration: none;
 }
+.topbar-section .topbar-parents a:hover{
+    color: green;
+    font-size: 17px;
+}
 
 /* -----------header------- */
 body{
@@ -148,6 +152,9 @@ h6{
     text-align: center;
     margin: 13px 0px 0px 0px;
     }
+.btn1:hover{
+    background-color: green;
+}
 .btn2 {
     max-width: 150px;
     height: 33px;
@@ -160,6 +167,9 @@ h6{
     position: absolute;
     top: 293px;
     right: 22%;
+}
+.btn2:hover{
+    background-color: green;
 }
 .banner-section .banner-parents .button .con{
     color: #fff;
@@ -208,6 +218,9 @@ h6{
     row-gap: 10px;
     column-gap: 10px;
 }
+.gallery-section .div img:hover{
+    transform: scale(1.03);
+}
 .gallery-button{
     height: auto;
     width: 100px;
@@ -219,7 +232,7 @@ h6{
     margin: 50px 45%;
 }
 .gallery-button:hover{
-    background-color: #173a69;
+    background-color: green;
     color: #fff;
     border:2px;
 }

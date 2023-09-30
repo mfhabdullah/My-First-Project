@@ -45,6 +45,9 @@ ul{
     color: white;
     text-decoration: none;
 }
+.topbar-section .topbar-parents a:hover{
+    color: green;
+}
 
 /* -----------header------- */
 body{

@@ -45,6 +45,9 @@ ul{
     color: white;
     text-decoration: none;
 }
+.topbar-section .topbar-parents a:hover{
+    color: green;
+}
 
 /* -----------header------- */
 body{
@@ -120,6 +123,9 @@ body{
     row-gap: 30px;
     margin: 88px 180px;
     justify-content: center;
+}
+.gallery-image img:hover{
+    transform: scale(1.06);
 }
 /* ------------------------footer-section------------------------- */
 .footer-section  {
