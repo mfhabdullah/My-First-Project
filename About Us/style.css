@@ -47,6 +47,7 @@ ul{
 }
 .topbar-section .topbar-parents a:hover{
     color: green;
+    font-size: 17px;
 }
 
 /* -----------header------- */
@@ -162,6 +163,10 @@ color:#173a69;
 .About-section .About-parents .About-content .gm{
     width: 360px;
     height: 360px;
+    transition: 0.5;
+}
+.About-section .About-parents .About-content .gm:hover{
+    transform: scale(1.06);
 }
 .tag{
     height: 110px;
