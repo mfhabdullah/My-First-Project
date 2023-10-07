@@ -44,6 +44,7 @@ ul{
     font-family: 'open Sans', sans-serif;
     color: white;
     text-decoration: none;
+    transition: .5s;
 }
 .topbar-section .topbar-parents a:hover{
     color: green;
@@ -84,17 +85,16 @@ body{
 }
 .header-parents .header-menu ul li:hover::after{
     width: calc(100% + 33px);
-
 }
-
-
 .header-section .header-parents ul li a{
     font-size: 16px;
     line-height: 22px;
+    font-weight: 600;
     color: black;
     text-decoration: none;
     font-family: sans-serif;
     position: relative;
+    transition: .5s;
 }
 /* --------tittle-section--------- */
 .tittle-section .tittle-parent .tittle-banner{
@@ -153,6 +153,7 @@ font-size: 25px;
     border: 2px solid #173a69;
     text-align: center;
     margin: 20px 0px 75px 0px;
+    transition: .5s;
     }
 .btn1:hover{
     background-color: green;
@@ -231,6 +232,7 @@ font-size: 25px;
     background-color:#173a69;
     border-radius: 50%;
     padding: 5px;
+    transition: .5s;
 }
 .foot-icon .icon-one:hover{
     background-color: black;

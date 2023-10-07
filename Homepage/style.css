@@ -44,6 +44,7 @@ ul{
     font-family: 'open Sans', sans-serif;
     color: white;
     text-decoration: none;
+    transition: .5s;
 }
 .topbar-section .topbar-parents a:hover{
     color: green;
@@ -85,10 +86,7 @@ body{
 }
 .header-parents .header-menu ul li:hover::after{
     width: calc(100% + 33px);
-
 }
-
-
 .header-section .header-parents ul li a{
     font-size: 16px;
     line-height: 22px;
@@ -97,6 +95,7 @@ body{
     text-decoration: none;
     font-family: sans-serif;
     position: relative;
+    transition: .5s;
 }
 .header-section .header-parents ul li a:hover{
     color: green;
@@ -111,20 +110,6 @@ body{
     background-position: center;
     position: relative;
 }
-/* .banner-section::after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    display: inline-block;
-    background: url('./img/banner-img.png');
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top:0;
-    left: 0;
-} */
-
 .banner-section .banner-parents{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -153,6 +138,7 @@ h6{
     border: 2px solid #173a69;
     text-align: center;
     margin: 13px 0px 0px 0px;
+    transition: .5s;
     }
 .btn1:hover{
     background-color: green;
@@ -170,6 +156,7 @@ h6{
     position: absolute;
     top: 293px;
     right: 22%;
+    transition: .5s;
 }
 .btn2:hover{
     background-color: green;
@@ -181,6 +168,7 @@ h6{
 .banner-section .banner-parents .button .con2{
     color: #173a69;
     text-decoration: none;
+    transition: .5s;
 }
 .banner-section .banner-parents .button .con2:hover{
     color: #fff;
@@ -200,6 +188,9 @@ h6{
     margin: 75px 100px;
     font-family: sans-serif;
     max-width: 965;
+}
+.service-section .service-parents .content img{
+    transition: .5s;
 }
 .service-section .service-parents .content img:hover{
     transform: scale(1.05);
@@ -227,6 +218,9 @@ h6{
     row-gap: 10px;
     column-gap: 10px;
 }
+.gallery-section .div img{
+    transition: .5s;
+}
 .gallery-section .div img:hover{
     transform: scale(1.03);
 }
@@ -239,6 +233,7 @@ h6{
     padding: 10px 30px 10px 30px;
     font-size: 15px;
     margin: 50px 45%;
+    transition: .5s;
 }
 .gallery-button:hover{
     background-color: green;
@@ -277,6 +272,7 @@ h6{
     background-color:#173a69;
     border-radius: 50%;
     padding: 5px;
+    transition: .5s;
 }
 .foot-icon .icon-one:hover{
     background-color: black;
